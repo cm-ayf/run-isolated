@@ -1,0 +1,25 @@
+{
+  "name": "run-isolated",
+  "version": "0.1.0",
+  "description": "Discord.js bot that runs JavaScript in V8 Isolate",
+  "type": "module",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cm-ayf/run-isolated.git"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cm-ayf <cm.ayf2734@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "isolated-vm": "^4.6.0"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/node": "^20.5.7",
+    "typescript": "^5.2.2"
+  }
+}
